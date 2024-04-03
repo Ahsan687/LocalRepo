@@ -3,7 +3,6 @@
 /* roll number 22069120033 */
 /* Nested if loop */
 
-
 #include <stdio.h>
 #include <math.h>
 
@@ -11,16 +10,17 @@ int main()
 {
 float a, b, c, d ,X1 , X2 ;
 
-    printf("Enter the value of a");
+    printf("Enter the value of a:");
     scanf("%f", &a);
-    printf("Enter the value of b");
+    printf("Enter the value of b:");
     scanf("%f", &b);
-    printf("Enter the value of c");
+    printf("Enter the value of c:");
     scanf("%f", &c);
         d = (b*b) - (4 * a * c);
    
     if (d<0)
-    printf("Real roots does not exsist");
+
+        printf("Real roots does not exsist");
 
     else
         {
@@ -32,11 +32,11 @@ float a, b, c, d ,X1 , X2 ;
         }  
         else
         {
-            printf("two roots exsist");
+            printf("two roots exsist \n");
                 X1 = (-b + pow(d,0.5))/(2*a) ;
                 X2 = (-b - pow(d,0.5))/(2*a) ; 
-        printf("X1 = %f", X1);
-        printf("X2 = %f", X2);
+        printf("Root_1 is X1 =  %f", X1);
+        printf("\n Root_2 is X2 = %f", X2);
         }
         }
     return 0;
