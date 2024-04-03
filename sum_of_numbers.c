@@ -1,7 +1,7 @@
 /* programe_3 */ 
 /* author Ahsan ul haq */
 /* roll number 22069120033 */
-/*simple intrest calculation*/
+/*sum of two numbers*/
 
 #include <stdio.h>
 #include <stdlib.h>

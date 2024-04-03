@@ -1,10 +1,8 @@
 /* programe_2 */ 
 /* author Ahsan ul haq */
 /* roll number 22069120033 */
-
+/* simple intrest calculation input from user*/
 #include <stdio.h>
-
- 
 int main()
 {
     int P, T;
