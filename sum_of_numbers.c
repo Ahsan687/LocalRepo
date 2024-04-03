@@ -4,6 +4,7 @@
 /*simple intrest calculation*/
 
 #include <stdio.h>
+#include <stdlib.h>
 int main()
 {
     float x, y, z ;      /*this is decleration statement*/
@@ -15,7 +16,7 @@ int main()
         z = (x + y);
 
         printf("sum is = %f" , z);
-
+     system("pause");
     return 0;
 
 }
