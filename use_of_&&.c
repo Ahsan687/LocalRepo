@@ -11,9 +11,8 @@
 // if % of marks < 40 then fail
 
 #include <stdio.h>
-int main()
- 
-{
+
+int main() {
     float P, C, M, E, per;
     printf("Enter marks of Physics: ");
     scanf("%f", &P);
@@ -25,11 +24,11 @@ int main()
     scanf("%f", &E);
     per = ((P + C + M + E) / 400) * 100;
 
-        if (per >= 60) 
+    if (per >= 60) 
     {
         printf("Ist division");
     }
-    if (per > 50 && per < 60) 
+    if (per >= 50 && per < 60)
     {
         printf("2nd division");
     }
@@ -37,7 +36,7 @@ int main()
     {
         printf("3rd division");
     }
-    if (per < 40) 
+    if (per < 40)
     {
         printf("Fail");
     }
