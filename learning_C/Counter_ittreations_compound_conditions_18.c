@@ -3,8 +3,8 @@
 /* roll number 22069120033 */
 // counter with ittrations multivariable compounded condition
 #include <stdio.h>
-
-int main() {
+int main()
+{
     int x, y, z;
 
     // Input values of x, y, and z
