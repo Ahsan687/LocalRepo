@@ -1,0 +1,5 @@
+Simple interest for person 1 = 35.000000
+Simple interest for person 2 = 105.000000
+Simple interest for person 3 = 500.000000
+Simple interest for person 4 = 0.140000
+Simple interest for person 5 = 37.500000

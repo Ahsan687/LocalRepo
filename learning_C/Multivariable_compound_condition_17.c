@@ -4,7 +4,8 @@
 // multivariable compounded condition
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int  i,j, k, t, x, y, z;
     printf("Enter value of j: ");
     scanf("%d", &j);
