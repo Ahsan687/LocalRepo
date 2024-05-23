@@ -1,0 +1,15 @@
+Step 1: Copy the File from HPC to Local Machine
+
+	i) Open a terminal on local machine.
+	ii)Use scp (Secure Copy Protocol) to copy the file from the HPC environment to local machine:
+
+ command = scp iucaa1@45.249.235.183:/home/iucaa1/Ahsan_ul_haq/python/pool.py /Github
+
+Step 2: Modify the File Locally
+	i) modified the file for do_this_job by an image classifier
+
+Step 3: Move the Modified File back to HPC
+	i) Open a terminal on local machine.
+	ii)Use scp to move the modified file from local machine to the HPC environment:
+
+command =scp Github/pool.py  iucaa1@45.249.235.183:/home/iucaa1/Ahsan_ul_haq/python/
