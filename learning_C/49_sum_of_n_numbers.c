@@ -1,7 +1,7 @@
-/* programe_4 */ 
+/* programe_49 */ 
 /* author Ahsan ul haq */
 /* roll number 22069120033 */
-// sum of n numbers
+// sum of n numbers iucaa homework
 #include <stdio.h>
 int main() {
     float i, j, sum = 0;
